@@ -16,5 +16,10 @@
     "target_path": "packages/apps/GoogleCamera",
     "branch": "Android-10.0",
     "remote": "github"
+  },
+    "repository": "Gaurav241/android_device_oppo_common",
+    "target_path": "device/oppo/common",
+    "branch": "ten",
+    "remote": "github"
   }
 ]
