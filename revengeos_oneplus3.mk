@@ -21,16 +21,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/oneplus3/device.mk)
 
 # Inherit some common ArrowOS stuff.
-$(call inherit-product, vendor/arrow/config/common.mk)
+$(call inherit-product, vendor/revengeos/config/common.mk)
 
 # Vendor security patch level
 VENDOR_SECURITY_PATCH := 2019-10-01
-PRODUCT_NAME := arrow_oneplus3
+PRODUCT_NAME := revengeos_oneplus3
 PRODUCT_DEVICE := oneplus3
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
 
-DEVICE_MAINTAINER := Gaurav24
+# Build Official
+REVENGEOS_BUILDTYPE := OFFICIAL
 
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
